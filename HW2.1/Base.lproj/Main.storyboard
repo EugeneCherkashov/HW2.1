@@ -17,26 +17,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7n-f6-LEz">
-                                <rect key="frame" x="16" y="59" width="361" height="360"/>
-                                <color key="backgroundColor" systemColor="systemGreenColor"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b0v-2l-wQX">
-                                <rect key="frame" x="16" y="458" width="361" height="360"/>
+                                <rect key="frame" x="16" y="456" width="361" height="362"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f7n-f6-LEz">
+                                <rect key="frame" x="16" y="75" width="361" height="362"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="b0v-2l-wQX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1ny-gd-jnF"/>
-                            <constraint firstItem="f7n-f6-LEz" firstAttribute="height" secondItem="b0v-2l-wQX" secondAttribute="height" id="9xe-HK-gy3"/>
-                            <constraint firstItem="b0v-2l-wQX" firstAttribute="top" secondItem="f7n-f6-LEz" secondAttribute="bottom" constant="39" id="BLr-gT-PMa"/>
-                            <constraint firstItem="f7n-f6-LEz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bx1-1W-ovX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f7n-f6-LEz" secondAttribute="trailing" constant="16" id="eV9-gw-Urr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b0v-2l-wQX" secondAttribute="trailing" constant="16" id="gJ9-L3-cXX"/>
-                            <constraint firstItem="b0v-2l-wQX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ibr-w1-mPJ"/>
-                            <constraint firstItem="f7n-f6-LEz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yeg-Mr-Ypo"/>
+                            <constraint firstItem="b0v-2l-wQX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0BS-3O-VK0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f7n-f6-LEz" secondAttribute="trailing" constant="16" id="LQK-pM-hFe"/>
+                            <constraint firstItem="f7n-f6-LEz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="Nan-VF-Mtg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="b0v-2l-wQX" secondAttribute="trailing" constant="16" id="dA0-B5-tih"/>
+                            <constraint firstItem="b0v-2l-wQX" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iZE-Mc-rEQ"/>
+                            <constraint firstItem="f7n-f6-LEz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="iqS-Ce-9Xg"/>
+                            <constraint firstItem="b0v-2l-wQX" firstAttribute="height" secondItem="f7n-f6-LEz" secondAttribute="height" id="mgU-9D-sE7"/>
+                            <constraint firstItem="b0v-2l-wQX" firstAttribute="top" secondItem="f7n-f6-LEz" secondAttribute="bottom" constant="19" id="y8v-Sv-ftM"/>
                         </constraints>
                     </view>
                 </viewController>
